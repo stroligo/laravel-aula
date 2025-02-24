@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Services\GamesService;
 use Illuminate\Http\Request;
 
-class AppController extends Controller
+class GameController extends Controller
 {
     protected $gamesService;
     public function __construct(GamesService $gamesService)
